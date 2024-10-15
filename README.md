@@ -3,6 +3,7 @@
 </p>
 
 # SlashFixer
+[English](README.md) | [简体中文](README_zh.md)
 
 Automatically converts backslashes (\\) to forward slashes (/) in the Windows clipboard.
 
@@ -21,8 +22,8 @@ Great for Python programming on Windows. Say goodbye to backslash problems!
 ### Option 1: Source code
 
 1. Clone or download the repository
-2. Install the dependencies: `pip install -r requirements.txt`.
-3. Run: `python SlashFixer.py`.
+2. Install the dependencies: `pip install -r requirements.txt`
+3. Run: `python SlashFixer.py`
 
 ### Option 2: Compiled binary
 
@@ -35,7 +36,7 @@ Note: Windows Defender or other anti-virus software may report the compiled .exe
 ## Usage
 
 1. Run the program:
-   - Source code: `python slashfixer.py`.
+   - Source code: `python SlashFixer.py`.
    - Compiled binary: Double click on SlashFixer.exe
 2. Look for the "\w/" icon in the system tray.
 3. Replacement is enabled by default
