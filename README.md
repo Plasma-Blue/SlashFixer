@@ -4,7 +4,7 @@
 
 # SlashFixer
 
-Automatically converts backslashes (\) to forward slashes (/) in the Windows clipboard.
+Automatically converts backslashes (\\) to forward slashes (/) in the Windows clipboard.
 
 Great for Python programming on Windows. Say goodbye to backslash problems!
 
@@ -48,8 +48,8 @@ Note: Windows Defender or other anti-virus software may report the compiled .exe
 
 Create a standalone executable using Nuitka:
 
-1. Install Nuitka: `pip install nuitka`.
-2. Compile: `nuitka --windows-disable-console --standalone --onefile --windows-icon-from-ico=icon.png SlashFixer.py`.
+1. Install Nuitka: `pip install nuitka`
+2. Compile: `nuitka --windows-disable-console --standalone --onefile --windows-icon-from-ico=icon.png SlashFixer.py`
 3. Find the executable in the same directory
 
 Note: Compilation may take a few minutes. The resulting file will be larger, but can be run without Python installed.

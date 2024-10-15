@@ -10,6 +10,9 @@ import win32gui
 from PIL import Image, ImageDraw, ImageFont
 
 
+__version__ == "2024.10.1"
+
+
 class SlashFixer:
 
     def __init__(self):
